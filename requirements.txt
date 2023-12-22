@@ -3,3 +3,4 @@ django-htmx
 crispy-bootstrap5
 django-crispy-forms
 pillow
+django-filter

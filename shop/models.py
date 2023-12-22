@@ -11,7 +11,7 @@ class Brand(models.Model):
     name = models.CharField(max_length=50)
     slug = models.SlugField(max_length=60, unique=True)
     logo = models.ImageField(upload_to='brand/logo', blank=True, null=True,)
-    banner = models.ImageField(upload_to='brand/banner', blank=None, null=True,)
+    banner = models.ImageField(upload_to='brand/banner', blank=True, null=True,)
     def __str__(self):
         return self.name
     
